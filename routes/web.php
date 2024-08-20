@@ -7,6 +7,7 @@ use App\Http\Controllers\TemperatureMonitorContactController;
 use App\Http\Controllers\TemperatureMonitoringController;
 use App\Http\Controllers\TemperaturesController;
 use App\Http\Controllers\DeviceControllerX;
+use App\Http\Controllers\ServerRoomController;
 
 /*
 
@@ -43,7 +44,7 @@ Route::get("/mobile_connect",[TemperaturesController::class, 'WeeklyTemperature'
 
 Route::post("/mobile_app/new_device",[DeviceControllerX::class, 'NewDevice'])->name("device.new");
 Route::post("/mobile_app/delete_device",[DeviceControllerX::class, 'DelDevice'])->name("device.remove");
-
+Route::resource('server-rooms', ServerRoomController::class);
 Route::post('/mobile_app/all_device_list', [DeviceControllerX::class, 'getAllDevices'])->name("device.view");
 
 

@@ -65,7 +65,7 @@
         <div class="swiper-wrapper">
           <div class="swiper-slide color-1">
             <div class="slide-image">
-              <img src="https://raw.githubusercontent.com/ismailvtl/ismailvtl.github.io/master/images/startup-launch.png" loading="lazy" alt="" />
+              <img src="images/refr.jpg" loading="lazy" alt="" />
             </div>
             <div class="slide-content">
               <h2>Turn your ideas into reality.</h2>
@@ -74,7 +74,7 @@
           </div>
           <div class="swiper-slide color-1">
             <div class="slide-image">
-              <img src="https://raw.githubusercontent.com/ismailvtl/ismailvtl.github.io/master/images/cloud-storage.png" loading="lazy" alt="" />
+              <img src="images/rfrw.jpg" loading="lazy" alt="" />
             </div>
             <div class="slide-content">
               <h2>Turn your ideas into reality.</h2>
@@ -84,7 +84,7 @@
   
           <div class="swiper-slide color-1">
             <div class="slide-image">
-              <img src="https://raw.githubusercontent.com/ismailvtl/ismailvtl.github.io/master/images/cloud-storage.png" loading="lazy" alt="" />
+              <img src="images/re.jpg" loading="lazy" alt="" />
             </div>
             <div class="slide-content">
               <h2>Turn your ideas into reality.</h2>

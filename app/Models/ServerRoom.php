@@ -8,4 +8,10 @@ use Illuminate\Database\Eloquent\Model;
 class ServerRoom extends Model
 {
     use HasFactory;
+
+    // Specify the attributes that can be mass-assigned
+    protected $fillable = [
+        'name',
+        'description',
+    ];
 }
